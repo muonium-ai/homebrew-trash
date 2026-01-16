@@ -6,6 +6,11 @@ class Send2trash < Formula
   sha256 "229a3ffa4287c7f990f4b7f953aa3e91adefca4a2bbb2d206569572816ed606e"
   license "MIT"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   depends_on xcode: [:build]
 
   def install
