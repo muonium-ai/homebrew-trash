@@ -1,9 +1,9 @@
 class Send2trash < Formula
   desc "Move files and folders to the macOS Trash"
   homepage "https://github.com/muonium-ai/send2trash"
-  url "https://github.com/muonium-ai/send2trash/archive/refs/heads/master.tar.gz"
-  version "master"
-  sha256 "229a3ffa4287c7f990f4b7f953aa3e91adefca4a2bbb2d206569572816ed606e"
+  url "https://github.com/muonium-ai/send2trash/archive/5200ba1c5d7d8255d36100cb8878e4f8b444b4d7.tar.gz"
+  version "5200ba1c"
+  sha256 "e3ef1c58d0e46b15ae5ed7459cdf8ad5b2e9b989d3106466d7179e70ebaed4f0"
   license "MIT"
 
   livecheck do
